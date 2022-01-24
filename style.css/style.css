@@ -89,11 +89,33 @@ body {
 }
 
 .header-btn {
-  background-color: #fa5959;
+  /* background-color: #fa5959;
   box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
   border-radius: 5px;
   cursor: pointer;
-  padding: 12px 2rem;
+  padding: 12px 2rem; */
+}
+
+.header-btn button {
+  cursor: pointer;
+  border: none;
+  background-color: #fa5959;
+  border: 2px solid transparent;
+  box-shadow: 0px 8px 8px -4px rgb(73 93 207 / 20%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  color: #fff;
+  padding: 12px 32px;
+  transition: color 0.4s ease, background-color 0.4s ease;
+}
+
+.header-btn button:hover {
+  background-color: #fff;
+  color: #fa5959;
+  border: 2px solid #fa5959;
 }
 
 /*main btn*/
